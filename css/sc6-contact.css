@@ -1,0 +1,82 @@
+.sc6-contact {
+  height: 513px;
+  background-color: black;
+  color: white;
+}
+
+.contact_wrap {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 120px 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_wrap > p {
+  font-size: 40px;
+  line-height: 70px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.line {
+  width: 800px;
+  height: 42px;
+  border-bottom: 2px solid #ffffff7e;
+}
+
+.line > input {
+  width: 100%;
+  padding: 10px;
+
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+  color: white;
+  /* 커서 색상 */
+  caret-color: white;
+}
+
+.submitForm {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.agreement {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.agreement > small {
+  font-size: 13px;
+  color: #4b4b4b;
+  text-decoration: underline;
+}
+
+.submitBtn > button {
+  padding: 10px 20px;
+
+  background-color: white;
+  font-size: 18px;
+
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+
+.submitBtn > button:hover {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+
+  transition-duration: 0.4s;
+}

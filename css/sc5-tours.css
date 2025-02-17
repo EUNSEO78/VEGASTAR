@@ -1,0 +1,97 @@
+.sc5-tours {
+  height: 100vh;
+  background-color: #020b32;
+  color: white;
+
+  position: relative;
+}
+.tours_wrap {
+  width: 100%;
+  max-width: 80%;
+  height: 100%;
+  margin: 0 auto;
+
+  padding-top: 150px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.tours {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tour {
+  font-size: 50px;
+}
+
+.viewmore_btn > button {
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+
+  border: 1px solid white;
+  border-radius: 20px;
+
+  padding: 10px 30px;
+}
+
+.benefit_btn > button:hover {
+  background-color: white;
+  color: #061b5f;
+  border: none;
+}
+
+.tours_swiper {
+  width: 100%;
+  height: 400px;
+}
+
+.tours_swiper-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.tours_swiper-slide {
+  min-width: 660px;
+  height: 400px;
+}
+
+.tours_swiper-slide > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.tours_navigation_container {
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+  width: 8%;
+}
+
+.tours_swiper-button-prev::after,
+.tours_swiper-button-next::after {
+  font-size: 2px;
+  color: #fff;
+}
+
+.tours_scrollbar_container {
+  position: absolute;
+  bottom: 15%;
+  width: 60%;
+  left: 10%;
+}
+
+.tours_swiper-scrollbar.swiper-scrollbar-horizontal {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Scrollbar 진행 상태 색상 */
+.tours_scrollbar_container .swiper-scrollbar-drag {
+  background-color: white;
+  height: 2px;
+}
